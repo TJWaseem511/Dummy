@@ -13,3 +13,6 @@ jobs:
 - job: A 
   steps:
     - bash: echo "Job A"
+- job: B
+  steps:
+    - bash: echo "Job B"
